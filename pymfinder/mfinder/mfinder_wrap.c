@@ -10,6 +10,7 @@
 
 #define SWIGPYTHON
 #define SWIG_PYTHON_DIRECTOR_NO_VTABLE
+void res_tbl_mem_free_single(*args);
 
 /* -----------------------------------------------------------------------------
  *  This section contains generic SWIG labels for method/variable
@@ -297,6 +298,7 @@ SWIGINTERNINLINE int SWIG_CheckState(int r) {
 #  define SWIG_AddCast
 #  define SWIG_CheckState(r) (SWIG_IsOK(r) ? 1 : 0)
 #endif
+
 
 
 #include <string.h>

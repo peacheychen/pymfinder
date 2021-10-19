@@ -13,7 +13,8 @@
 
 /*************************** Global variables ****************************/
 
-
+int clustering_series(Network *N,double *vec);
+void dump_network(FILE *fp,Network *N);
 /******************************* Externs *********************************/
 
 extern int DEBUG_LEVEL;
