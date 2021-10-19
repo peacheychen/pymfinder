@@ -11,11 +11,11 @@ If you use pymfinder or the ideas presented in it, please remember to cite [Bram
 
 Installation should be relatively straightforward using the included `setup.py`. In fact, it should be as simple as navigating to the directory where you cloned the git repository ('pymfinder/') and running
 
-	python setup.py install
+	python3 setup.py install
 
 If you receive an error about 'Permission denied' or something similar, you most likely don't have permission to install pymfinder in the global Python site-packages or dist-packages directory. In that case, you can install it locally by adding the `--user` option
 
-	python setup.py install --user
+	python3 setup.py install --user
 
 If you still cannot install pymfinder, please check [the issues page](https://github.com/stoufferlab/pymfinder/issues/) and, if your problem isn't listed, create a new one.
 
@@ -25,4 +25,4 @@ If you prefer to use Python 3, you can also switch to the branch pymfinder-pytho
 
 Assuming that the package installs properly, it is strongly recommended that you run the test suite to make sure that nothing fishy is going on. Doing so is as simple as running
 
-	python setup.py test
+	python3 setup.py test
